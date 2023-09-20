@@ -1,0 +1,84 @@
+.navbar {
+background: blue;
+padding: 10px 20px;
+margin-bottom: 10px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 2;
+/* Позиция для закрепления сверху, ну остальное понятно, з индекс для приоритета перед другими */
+}
+.navbar ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ /* Дисплей чтобы ссылки были горизонтально Лист стайл чтобы не было маркеров */
+}
+.navbar ul li {
+    margin-right: 30px; 
+    /* Чтобы ссылки не слипались */
+}
+.button1:hover {
+    background: cornflowerblue;
+    transform: scale(1,2);
+    transition: transform .4s;
+    border-radius: 500px;
+    /* Сделал чтобы кнопки при наведении подствечивались 
+    цветом каким-то лютым и эффект увеличения кривой косой */
+}
+.button1 {
+    border-radius: 10px;
+}
+.navbar ul li:last-child {
+    margin-right: 0;
+    /* Чтобы убрать маржин последнего элемента */
+}
+#header {
+    margin-top: 40px;
+    background: lightblue;
+    border-radius: 10px;
+}
+.hat {
+    width: 200px;
+    margin: 40px auto; 
+    /* Выравниваем собственно говоря по центру */
+    /* display: block; - Нужно с картинками чтобы выравнять по центру */
+}
+.table1 {
+    border: 1px solid black;
+    margin-left: 50px;
+    
+     
+}
+.bord1 {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    background: whitesmoke;
+    /* Тут я сделал границы отдельно для всех классов борд1 и
+     так же выравнял все по центру ячеек. А так же финалочкой закруглил границы
+     для мягкости */
+}
+.avatar {
+    border-radius: 20px;
+}
+.divimg1 {
+    display: inline-block;
+    background: lightblue;
+    
+}
+.divtable {
+    display: inline-block;
+    background: lightblue;
+    margin-left: 50 px;
+ 
+}
+/* После долгой борьбы, после многих проб и больнейших ошибок, 
+я наконец разобрался как выставить блок с картинкой и таблицей в один ряд */
+.divtext {
+    display: inline-block;
+    margin-left: 50px;
+}
+
